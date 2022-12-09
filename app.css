@@ -1,0 +1,17 @@
+:root {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    display: inline-block;
+    flex-direction: column;
+    width: 30vw;
+    height: 100vh;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
