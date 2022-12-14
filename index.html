@@ -8,61 +8,102 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
-<body>
-    
-<div class="main-grid">
-    <div class="sidebar">
-        <div class="sidebar-heading-container">
-            <img src="./images/dashboard_FILL1_wght400_GRAD0_opsz48.svg" alt="dashboard icon" id="dashboard-icon">
-            <h1>Dashboard</h1>
-        </div>
-        <div class="home-container" class="container">
-            <img src="./images/home_FILL0_wght400_GRAD0_opsz48.svg" alt="home icon" class="icon">
-            <a href="#">Home</a>
-        </div>
-        <div class="profile-container" class="container">
-            <img src="./images/account_box_FILL0_wght400_GRAD0_opsz48.svg" alt="profile icon" class="icon">
-            <a href="#">Profile</a>
-        </div>
-        <div class="messages-container" class="container">
-            <img src="./images/mode_comment_FILL0_wght400_GRAD0_opsz48.svg" alt="message icon" class="icon">
-            <a href="#">Messages</a>
-        </div>
-        <div class="history-container" class="container">
-            <img src="./images/history_FILL0_wght400_GRAD0_opsz48.svg" alt="history icon" class="icon">
-            <a href="#">History</a>
-        </div>
-        <div class="tasks-container" class="container">
-            <img src="./images/task_FILL0_wght400_GRAD0_opsz48.svg" alt="task icon" class="icon">
-            <a href="#">Tasks</a>
-        </div>
-        <div class="communities-container" class="container">
-            <img src="./images/groups_FILL0_wght400_GRAD0_opsz48.svg" alt="community icon" class="icon">
-            <a href="#">Communities</a>
-        </div>
-        <div class="empty-container" class="container"></div>
-        <div class="settings-container" class="container">
-            <img src="./images/settings_FILL0_wght400_GRAD0_opsz48.svg" alt="settings icon" class="icon">
-            <a href="#">Settings</a>
-        </div>
-        <div class="support-container" class="container">
-            <img src="./images/help_center_FILL0_wght400_GRAD0_opsz48.svg" alt="support icon" class="icon">
-            <a href="#">Support</a>
-        </div>
-        <div class="privacy-container" class="container">
-            <img src="./images/verified_user_FILL0_wght400_GRAD0_opsz48.svg" alt="privacy icon" class="icon">
-            <a href="#">Privacy</a>
-        </div>
-    </div>
+<body>  
+<!-- sidebar -->
+    <div class="main-grid">
 
-    <div class="navbar">
-        <img src="./images/search_FILL0_wght400_GRAD0_opsz48.svg" alt="search icon">
-        <input type="text" class="navbar-input">
+        <div class="sidebar">
+            <div class="sidebar-heading-container">
+                <img src="./images/dashboard_FILL1_wght400_GRAD0_opsz48.svg" alt="dashboard icon" id="dashboard-icon">
+                <h1>Dashboard</h1>
+            </div>
+            <div class="home-container" class="container">
+                <img src="./images/home_FILL0_wght400_GRAD0_opsz48.svg" alt="home icon" class="icon">
+                <a href="#">Home</a>
+            </div>
+            <div class="profile-container" class="container">
+                <img src="./images/account_box_FILL0_wght400_GRAD0_opsz48.svg" alt="profile icon" class="icon">
+                <a href="#">Profile</a>
+            </div>
+            <div class="messages-container" class="container">
+                <img src="./images/mode_comment_FILL0_wght400_GRAD0_opsz48.svg" alt="message icon" class="icon">
+                <a href="#">Messages</a>
+            </div>
+            <div class="history-container" class="container">
+                <img src="./images/history_FILL0_wght400_GRAD0_opsz48.svg" alt="history icon" class="icon">
+                <a href="#">History</a>
+            </div>
+            <div class="tasks-container" class="container">
+                <img src="./images/task_FILL0_wght400_GRAD0_opsz48.svg" alt="task icon" class="icon">
+                <a href="#">Tasks</a>
+            </div>
+            <div class="communities-container" class="container">
+                <img src="./images/groups_FILL0_wght400_GRAD0_opsz48.svg" alt="community icon" class="icon">
+                <a href="#">Communities</a>
+            </div>
+            <div class="empty-container" class="container"></div>
+            <div class="settings-container" class="container">
+                <img src="./images/settings_FILL0_wght400_GRAD0_opsz48.svg" alt="settings icon" class="icon">
+                <a href="#">Settings</a>
+            </div>
+            <div class="support-container" class="container">
+                <img src="./images/help_center_FILL0_wght400_GRAD0_opsz48.svg" alt="support icon" class="icon">
+                <a href="#">Support</a>
+            </div>
+            <div class="privacy-container" class="container">
+                <img src="./images/verified_user_FILL0_wght400_GRAD0_opsz48.svg" alt="privacy icon" class="icon">
+                <a href="#">Privacy</a>
+            </div>
+        </div>
+
+        <div class="nav-grid">
+            <div class="nav-top-row">
+                <img src="./images/search_FILL0_wght400_GRAD0_opsz48.svg" alt="search icon">
+                <input type="search">
+                <img src="./images/notifications_active_FILL0_wght400_GRAD0_opsz48.svg" alt="notifications">
+                <img src="./images/IMG_1218 (2).jpg" alt="profile picture" id="top-right-profile">
+                <h3>Morgan Oakley</h3>
+            </div>
+            <div class="nav-bottom-row">
+                <img src="./images/IMG_1218 (2).jpg" alt="profile picture" id="bottom-left-profile">
+                <p>Hi, there 
+                <br>
+                   Morgan Oakley (@morgan)     
+                </p>
+                <button class="buttons">New</button>
+                <button class="buttons">Upload</button>
+                <button class="buttons">Share</button>
+            </div>
+        </div>
+
+        <div class="projects-grid">
+            <div class="cards" id="card1">
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non incidunt possimus et exercitationem dolores explicabo cum officia, atque ea inventore voluptates sunt commodi quo! Facilis!</p>
+            </div>
+            <div class="cards" id="card2">
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non incidunt possimus et exercitationem dolores explicabo cum officia, atque ea inventore voluptates sunt commodi quo! Facilis!</p>
+            </div>
+            <div class="cards" id="card3">
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non incidunt possimus et exercitationem dolores explicabo cum officia, atque ea inventore voluptates sunt commodi quo! Facilis!</p>
+            </div>
+            <div class="cards" id="card4">
+                <h3>Project 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non incidunt possimus et exercitationem dolores explicabo cum officia, atque ea inventore voluptates sunt commodi quo! Facilis!</p>
+            </div>
+            <div class="cards" id="card5">
+                <h3>Project 5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non incidunt possimus et exercitationem dolores explicabo cum officia, atque ea inventore voluptates sunt commodi quo! Facilis!</p>
+            </div>
+            <div class="cards" id="card6">
+                <h3>Project 6</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non incidunt possimus et exercitationem dolores explicabo cum officia, atque ea inventore voluptates sunt commodi quo! Facilis!</p>
+            </div>
+        </div>   
+
     </div>
-    <div class="project-content"></div>
-    <div class="announcements"></div>
-    <div class="trending"></div>
-</div>
 
 </body>
 </html>
